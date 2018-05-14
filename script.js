@@ -7,22 +7,22 @@ document.addEventListener('keydown', (event) => {
     const keyName = event.key;
     if (keyName == "ArrowDown") {
         // console.log("ArrowDown");
-        boxTop = boxTop + 10;
+        boxTop = boxTop + 25;
         document.getElementById("box").style.top = boxTop + "px";
     };
     if (keyName == "ArrowUp") {
         // console.log("ArrowUp");
-        boxTop = boxTop - 10;
+        boxTop = boxTop - 25;
         document.getElementById("box").style.top = boxTop + "px";
     };
     if (keyName == "ArrowRight") {
         // console.log("ArrowRight");
-        boxLeft = boxLeft + 10;
+        boxLeft = boxLeft + 25;
         document.getElementById("box").style.left = boxLeft + "px";
     };
     if (keyName == "ArrowLeft") {
         // console.log("ArrowLeft");
-        boxLeft = boxLeft - 10;
+        boxLeft = boxLeft - 25;
         document.getElementById("box").style.left = boxLeft + "px";
     };
 });
